@@ -112,3 +112,4 @@ C:\SS\server-hatde\server-hatde\obj\Debug\net8.0\server-hatde.pdb
 C:\SS\server-hatde\server-hatde\obj\Debug\net8.0\server-hatde.genruntimeconfig.cache
 C:\SS\server-hatde\server-hatde\obj\Debug\net8.0\ref\server-hatde.dll
 C:\SS\server-hatde\server-hatde\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\SS\server-hatde\server-hatde\obj\Debug\net8.0\server-hatde.sourcelink.json

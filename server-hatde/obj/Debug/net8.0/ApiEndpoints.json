@@ -32,6 +32,64 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "server_hatde.Controllers.ReviewController",
+    "Method": "GetReviewsAsync",
+    "RelativePath": "api/Review",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "server_hatde.Controllers.ReviewController",
+    "Method": "GetReviewsByServiceIdAsync",
+    "RelativePath": "api/Review/{idService}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idService",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "server_hatde.Controllers.ReviewController",
+    "Method": "AddReviewAsync",
+    "RelativePath": "api/Review/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "review",
+        "Type": "server_hatde.Entities.Review",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "server_hatde.Controllers.ReviewController",
+    "Method": "DeleteReviewAsync",
+    "RelativePath": "api/Review/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "server_hatde.Controllers.ServiceController",
     "Method": "GetServicesAsync",
     "RelativePath": "api/Service",
