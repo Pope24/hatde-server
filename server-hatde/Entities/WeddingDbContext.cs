@@ -28,8 +28,8 @@ namespace server_hatde.Entities
 
             modelBuilder.Entity<Payment>()
                 .HasOne(p => p.Booking)
-                .WithOne(b => b.Payment)
-                .HasForeignKey<Payment>(p => p.BookingId);
+                .WithMany(b => b.Payments)
+                .HasForeignKey(p => p.BookingId);
         }
     }
 }

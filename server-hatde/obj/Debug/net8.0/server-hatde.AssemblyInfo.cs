@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("server-hatde")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3edbebbe06c7c243b39347048b7eda70cee95a3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6decc110c1564bfe1aa8252bf7a003f430191f6")]
 [assembly: System.Reflection.AssemblyProductAttribute("server-hatde")]
 [assembly: System.Reflection.AssemblyTitleAttribute("server-hatde")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

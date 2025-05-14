@@ -1,3 +1,4 @@
+using CarRentalSystem.Infrustructure;
 using Microsoft.EntityFrameworkCore;
 using server_hatde.Entities;
 using server_hatde.Services;
@@ -15,6 +16,8 @@ builder.Services.AddDbContext<WeddingDbContext>(options =>
 
 builder.Services.AddControllers();
 
+builder.Services.AddScoped<IBookingService, BookingService>();
+builder.Services.AddScoped<IPaymentService, PaymentService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IServiceService, ServiceService>();
 builder.Services.AddScoped<IReviewService, ReviewService>();
